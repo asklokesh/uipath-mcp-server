@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.asklokesh/uipath-mcp-server",
+  "description": "MCP server for UiPath API integration",
+  "title": "Uipath",
+  "repository": {
+    "url": "https://github.com/asklokesh/uipath-mcp-server",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "uipath-mcp-server",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "UIPATH_API_KEY",
+          "description": "API Key for UIPATH",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "UIPATH_API_URL",
+          "description": "API URL for UIPATH",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
