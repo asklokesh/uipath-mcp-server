@@ -1,5 +1,7 @@
 # UiPath MCP Server
 
+<!-- mcp-name: io.github.asklokesh/uipath-mcp-server -->
+
 <div align="center">
 
 # Uipath Mcp Server
