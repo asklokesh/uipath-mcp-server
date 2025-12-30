@@ -28,3 +28,6 @@ dev = [
 
 [project.scripts]
 uipath-mcp = "uipath_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/uipath_mcp"]
