@@ -9,7 +9,7 @@ description = "MCP server for UiPath API integration"
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-    { name = "asklokesh", email = "asklokesh@example.com" }
+    { name = "asklokesh", email = "lokeshmure@live.com" }
 ]
 dependencies = [
     "httpx>=0.24.0",
